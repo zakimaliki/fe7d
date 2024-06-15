@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- external -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* internal */
+      .test {
+        color: blue;
+      }
+      /* p {
+        color: yellow;
+      } */
+      h3,
+      h4 {
+        color: skyblue;
+      }
+      /* ul > li {
+        color: brown;
+      }
+      ul li {
+        color: brown;
+      } */
+      /* pseudo class */
+      ul li:first-child {
+        color: slateblue;
+      }
+      ul li:nth-child(2) {
+        color: brown;
+      }
+      ul li:last-child {
+        color: salmon;
+      }
+      button:hover {
+        background-color: blue;
+      }
+      button:focus {
+        background-color: red;
+      }
+      p::first-line {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline -->
+    <h1 style="color: red">lorem</h1>
+    <!--  internal -->
+    <ul>
+      <li class="test">lorem</li>
+      <li class="test">lorem</li>
+      <li class="test">lorem</li>
+    </ul>
+    <h1 id="test2">lorem</h1>
+    <!-- urutan spesifisity -->
+    tag : 1 
+    class : 10 
+    id : 100 
+    inline : 1000
+    <!-- selector = memilik tag , class , id yang ingin di beri css -->
+    <!-- single , multi selector -->
+    <p>lorem</p>
+    <h3>lorem</h3>
+    <h4>lorem</h4>
+    <!-- parent , child -->
+    <!-- spasi atau > -->
+    <ul>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+    </ul>
+    <!-- pseudo class -->
+    <button>click me!</button>
+    <!-- psedo element -->
+    <p class="test3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eaque vero
+      iste pariatur enim libero? Delectus qui earum deserunt dolorem mollitia
+      est, quod illo consectetur possimus laborum voluptas non animi ipsam, iure
+      sit. Suscipit numquam libero iusto nemo eveniet harum nihil quam
+      asperiores, amet odio. Natus libero eaque eum ducimus!
+    </p>
+  </body>
+</html>
